@@ -1,0 +1,23 @@
+body {
+    background-color: #f5e3d6;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    color: #fffef7;
+}
+
+.img {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 300px;
+}
+
+.back {
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    color: #717071;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    color: #a1caa4;
+}
+
+.img {
+    text-align: center;
+}
+
+img {
+    width: 350px;
+}
+
+p {
+    text-align: center;
+    color: #a1caa4;
+}
+
+.center p {
+    color: #717071;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.button {
+    text-align: center;
+    padding: 30px;
+}

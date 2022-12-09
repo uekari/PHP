@@ -1,0 +1,249 @@
+body {
+    font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    line-height: 1.75;
+    font-size: 16px;
+    color: #000;
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#container {
+    padding-top: 150px;
+}
+
+/* header */
+
+.header {
+    background-color: rgba(250, 144, 13, 0.398);
+    height: 300px;
+    text-align: center;
+}
+
+.user_name {
+    font-size: 30px;
+}
+
+.title h1 {
+    font-size: 48px;
+    color: rgb(248, 156, 8);
+    text-align: center;
+}
+
+.title p {
+    font-size: 36px;
+    color: rgb(248, 156, 8);
+    text-align: center;
+}
+
+.menu {
+    background-color: rgba(255, 0, 255, 0.289);
+}
+
+/*-- ABOUT --*/
+.about {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+/*-- ご利用の流れ --*/
+.course {
+    text-align: center;
+}
+
+
+/*-- よくある質問 --*/
+.question h1 {
+    text-align: center;
+}
+
+.question p {
+    text-align: center;
+}
+
+
+/* 問い合わせフォーム */
+.form_top {
+    text-align: center;
+    font-size: 20px;
+    color: #a1caa4;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.form_top p {
+    font-size: 13px;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    padding-bottom: 15px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form_form {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form p {
+    padding: 5px;
+    margin: 0px;
+}
+
+form input,
+select,
+textarea {
+    text-align: center;
+    color: #717071;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 25px;
+}
+
+form select {
+    text-align: center;
+    color: #717071;
+    height: 35px;
+}
+
+form textarea {
+    height: 150px;
+    font-weight: normal;
+}
+
+form textarea::placeholder {
+    color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    margin: 10px 10px;
+    padding: 10px 25px;
+    color: #717071;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5pt;
+    text-decoration: none;
+    background-color: #a1caa4;
+    border: 1px solid #a1caa4;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+}
+
+.btn:hover {
+    color: #717071;
+    background-color: #bae5bc;
+}
+
+
+/* アクセス */
+/*-- ACCESS --*/
+.ACCESS {
+    background-color: #fafafa;
+    width: 100%;
+    text-align: center;
+}
+
+.ACCESS_title {
+    padding: 64px 0px 64px;
+}
+
+.ACCESS_title h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.ACCESS_title p {
+    font-size: 16px;
+}
+
+.map {
+    width: 100%;
+    position: relative;
+    padding: 0px 0px 64px;
+}
+
+.map iframe {
+    top: 0;
+    left: 0;
+    width: 1300px;
+    height: 400px;
+}
+
+.ACCESS_end {
+    padding: 0px 350px 56px;
+}
+
+.ACCESS_end ul {
+    text-align: left;
+}
+
+ul {
+    margin-bottom: 24px;
+}
+
+
+
+/* last部分 */
+.last {
+    text-align: center;
+    color: white;
+    padding: 32px 0px 32px;
+    background-color: #cac5c5;
+}
+
+.last h1 {
+    margin: 0px;
+    font-size: 18px;
+}
+
+
+/* footer・トップに戻る */
+#page-top {
+    position: fixed;
+    right: 170px;
+    bottom: 90px;
+    font-size: 13px;
+    line-height: 1rem;
+    background: rgba(255, 174, 0, 0.462);
+    color: black;
+    padding: 28px;
+    border: solid 0px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px -6px rgba(0, 0, 0, .5), 0 3px 10px -4px rgba(0, 0, 0, .2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
